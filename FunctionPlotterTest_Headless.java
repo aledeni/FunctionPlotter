@@ -15,7 +15,7 @@ import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
 
 @ExtendWith(ApplicationExtension.class)
-public class FunctionPlotterTest {
+public class FunctionPlotterTest_Headless {
 	
 	static {
 		if(System.getProperty("os.name").toLowerCase().startsWith("win")) {
